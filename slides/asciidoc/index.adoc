@@ -1,0 +1,47 @@
+:revealjsdir: reveal
+:revnumber: {project-version}
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../java]
+:docinfo: shared
+:navigation:
+:menu:
+:header_footer: true
+:status:
+:title-slide-background-image: nest-logo.png
+:title-slide-transition: zoom
+:title-slide-transition-speed: fast
+:icons: font
+:revealjs_history: true
+:source-highlighter: highlightjs
+
+= LitElement
+
+[.speaker]
+=== !
+
+[.speaker-bio]
+--
+Emmanuel DEMEY
+
+Freelance 
+
+@EmmanuelDemey
+--
+
+image::emmanuel.jpg[]
+
+[.speaker]
+=== !
+
+[.speaker-bio]
+--
+Aurélien LOYER
+
+Software Engineer @ Qima
+
+@AurelienLoyer
+--
+
+image::aurelien.jpeg[]
+

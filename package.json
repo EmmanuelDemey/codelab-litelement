@@ -1,0 +1,30 @@
+{
+	"name": "codelab-nestjs",
+	"version": "1.0.0",
+	"description": "🐱 Mettons en place notre premier backend à base de NestJS et ses bonnes pratiques poussées par la communauté de ce framework !",
+	"scripts": {
+		"start": "npm run generate",
+		"postinstall": "npm run update:submodule",
+		"generate": "speaker-cli generate",
+		"generate:slides": "speaker-cli generate --slides",
+		"watch:slides": "speaker-cli generate --slides --watch",
+		"generate:labs": "speaker-cli generate --labs",
+		"watch:labs": "speaker-cli generate --labs --watch",
+		"update:submodule": "git submodule update --recursive --force"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/T3kstiil3/codelab-nestjs.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/T3kstiil3/codelab-nestjs/issues"
+	},
+	"homepage": "https://github.com/T3kstiil3/codelab-nestjs",
+	"devDependencies": {
+		"speaker-cli": "git+https://github.com/DX-DeveloperExperience/speaker-cli.git"
+	},
+	"dependencies": {}
+}
