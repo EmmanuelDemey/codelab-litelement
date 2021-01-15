@@ -1,0 +1,13 @@
+== Components
+
+=== Structure of a component
+
+=== Template
+
+=== Properties
+
+=== PW 2
+
+=== Events
+
+=== PW 3

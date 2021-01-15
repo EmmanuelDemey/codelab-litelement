@@ -1,0 +1,12 @@
+= LitElement
+
+== Prerequisite
+
+In order to complete this codelab, you need the following tools :
+
+- GIT
+- NodeJS 10.x or >
+- an IDE (WebStorm or Visual Studio Code...)
+
+
+https://codelabs.developers.google.com/

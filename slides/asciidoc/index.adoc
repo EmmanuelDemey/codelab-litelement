@@ -45,3 +45,26 @@ Software Engineer @ Qima
 
 image::aurelien.jpeg[]
 
+include::./chapters/introduction.adoc[]
+include::./chapters/composants.adoc[]
+include::./chapters/decorateurs.adoc[]
+include::./chapters/build.adoc[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

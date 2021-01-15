@@ -1,0 +1,4 @@
+== PW 2
+
+Créer composants statiques header et card et la page
+La card aura des properties : Le codelab a afficher
