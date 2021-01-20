@@ -10,7 +10,8 @@
 		"watch:slides": "speaker-cli generate --slides --watch",
 		"generate:labs": "speaker-cli generate --labs",
 		"watch:labs": "speaker-cli generate --labs --watch",
-		"update:submodule": "git submodule update --recursive --force"
+		"update:submodule": "git submodule update --recursive --force",
+		"serve": "npx http-server docs"
 	},
 	"repository": {
 		"type": "git",

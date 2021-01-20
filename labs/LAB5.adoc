@@ -1,3 +1,4 @@
 == PW 5
 
-Builder la librairie de composnts et l'utiliser dans une page HTML
+- Builder la librairie de composants et l'utiliser dans une page HTML
+- Bonus: Use your components anywhere you use HTML: in your main document, a CMS, Markdown, or a framework like **React** or **Vue**.
