@@ -2,8 +2,69 @@
 
 === Les Web Components
 
-* Specifications
-* libraires...
+* Les Web Components est un ensemble de spécifications permettant
+de créer des éléments HTML custom
+** Custom Element
+** Shadow DOM
+** Templates
+
+=== Custom Element
+
+[source]
+----
+class Header extends HTMLElement{
+    constructor() {
+        super();
+    }
+}
+customElements.define('demo-header', Header);
+----
+
+=== Shadow DOM
+
+[source]
+----
+class Header extends HTMLElement{
+    constructor() {
+        super();
+
+        const shadowRoot = this.attachShadow({mode: 'open'});
+        shadowRoot.innerHTML = `
+            <style>h1 { color: red; }</style>
+            <h1>Greetings from the dark side of the DOM</h1>
+        `;
+    }
+}
+customElements.define('demo-header', Header);
+----
+
+=== Templates
+
+[source]
+----
+<template id="demo_tpl">
+    <p></p>
+</template>
+
+=== Templates
+
+[source]
+----
+class Header extends HTMLElement{
+    constructor() {
+        super();
+
+        const shadowRoot = this.attachShadow({mode: 'open'});
+        let template = document.getElementById("student_template");
+        let templateContent = template.content.cloneNode(true);
+        shadowRoot.appendChild(templateContent);
+        this.shadowRoot.querySelector('p').innerHTML = "Web Components";
+    }
+}
+customElements.define('demo-header', Header);
+----
+
+=== Les librairies
 
 === Lit Element
 
