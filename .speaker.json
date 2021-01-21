@@ -1,0 +1,11 @@
+{
+  "directoryName": "codelab-litelement",
+  "projectName": "Codelab LitElement - A simple base class for creating fast, lightweight web components",
+  "projectDescription": "Use your components anywhere you use HTML: in your main document, a CMS, Markdown, or a framework like React or Vue.",
+  "projectAuthorsTwitter": "@EmmanuelDemey @AurelienLoyer",
+  "types": ["slides", "codelab"],
+  "labsConfig": {
+    "format": "adoc"
+  },
+  "gitinit": true
+}

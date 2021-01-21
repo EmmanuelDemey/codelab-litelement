@@ -1,5 +1,5 @@
 == PW 1
 
-Initier le proejt
-Mettre une feuille de style définir
-Le code HTML
+- Init the projet
+- Mettre une feuille de style définir
+- Le code HTML

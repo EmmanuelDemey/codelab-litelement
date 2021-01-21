@@ -1,7 +1,7 @@
 {
-	"name": "codelab-nestjs",
+	"name": "codelab-litelement",
 	"version": "1.0.0",
-	"description": "🐱 Mettons en place notre premier backend à base de NestJS et ses bonnes pratiques poussées par la communauté de ce framework !",
+	"description": "Codelab LitElement - A simple base class for creating fast, lightweight web components",
 	"scripts": {
 		"start": "npm run generate",
 		"postinstall": "npm run update:submodule",
@@ -10,21 +10,22 @@
 		"watch:slides": "speaker-cli generate --slides --watch",
 		"generate:labs": "speaker-cli generate --labs",
 		"watch:labs": "speaker-cli generate --labs --watch",
-		"update:submodule": "git submodule update --recursive --force"
+		"update:submodule": "git submodule update --recursive --force",
+		"serve": "npx http-server docs"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/T3kstiil3/codelab-nestjs.git"
+		"url": "git://https://github.com/EmmanuelDemey/codelab-litelement.git"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "@EmmanuelDemey @AurelienLoyer",
+	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/T3kstiil3/codelab-nestjs/issues"
+		"url": "https://github.com/EmmanuelDemey/codelab-litelement/issues"
 	},
-	"homepage": "https://github.com/T3kstiil3/codelab-nestjs",
+	"homepage": "https://github.com/EmmanuelDemey/codelab-litelement",
 	"devDependencies": {
-		"speaker-cli": "git+https://github.com/DX-DeveloperExperience/speaker-cli.git"
+		"speaker-cli": "git+https://github.com/EmmanuelDemey/codelab-litelement.git"
 	},
 	"dependencies": {}
 }
