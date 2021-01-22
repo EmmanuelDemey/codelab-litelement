@@ -1,4 +1,15 @@
 == PW 5
 
-- Builder la librairie de composants et l'utiliser dans une page HTML
-- Bonus: Use your components anywhere you use HTML: in your main document, a CMS, Markdown, or a framework like **React** or **Vue**.
+The main goal our a web component is to make it useable in any kind of applications.
+
+* Add the needed configuration in order to build a production-ready version of your library.
+
+[source]
+----
+npm run build
+----
+
+* Include the generated file in a fake website (containing only a HTML file for example), and insert the main
+component of your library.
+
+* Run the following command, and you will normally be able to see your web-components running in a dedicated web application.
