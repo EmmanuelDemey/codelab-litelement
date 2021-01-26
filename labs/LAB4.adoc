@@ -1,3 +1,5 @@
 == PW 4
 
-- Réécrire le tout avec des décorateurs
+Thanks to Babel and TypeScript, we have the opportunity to use decorator in our code.
+
+* Rewrite our three components in order to use this new syntax.

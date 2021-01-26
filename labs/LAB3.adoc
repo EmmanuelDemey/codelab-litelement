@@ -1,3 +1,6 @@
 == PW 3
 
-- L'input search dans le header doit envoyer un event pour pouvoir filtrer la données affichées.
+In the header, we have an input we will use to filter our fake list of codelab
+
+Each time the user insert a character into this input field, emit an event in order to be able to
+filter our list of data in the main application of our codelab.

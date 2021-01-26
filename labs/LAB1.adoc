@@ -1,5 +1,22 @@
 == PW 1
 
-- Init the projet
-- Mettre une feuille de style définir
-- Le code HTML
+In this very first PW, we will first initialize the LitElement projet.
+
+* Clone the starter project provided by the LitElement team : https://github.com/PolymerLabs/lit-element-starter-js
+* Install the dependencies
+
+[source]
+----
+npm install
+----
+
+* Launch the dev server to double check everything is working fine
+
+[source]
+----
+cd dev
+npm run serve
+----
+
+* In the `dev/index.html`, copy/paste the HTML code provided by us.
+* Include also the CSS stylesheet.
